@@ -1,0 +1,32 @@
+Suppose that for inputs of size n on a particular computer, insertion sort runs in 8n^2
+steps and merge sort runs in 64 n lg n steps. For which values of n does insertion
+sort beat merge sort?
+
+
+insertion sort = 8n^2;
+mergeSort = 64nlogn;
+
+we have to find the n which beat mergeSort's time 
+8n^2 < 64nlogn 
+n^2 < 8nlogn
+n < 8 logn
+
+
+Log 1	0
+Log 2	0.3010
+Log 3	0.4771
+Log 4	0.6020
+Log 5	0.6989
+Log 6	0.7781
+Log 7	0.8450
+Log 8	0.9030
+Log 9	0.9542
+Log 10	1
+
+answer is between 2 - 6  ;
+2 < 2.40823996531 
+3 < 3.81697003776
+4 < 4.81647993062
+5 < 5.59176003469
+6 < 6.22521000307
+7 > 6.76078432011
